@@ -2,25 +2,72 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <link  rel="stylesheet" type="text/css" th:href="@{style.css}">
+
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link  rel="stylesheet" type="text/css" th:href="@{/style.css}">
     <title>Title</title>
+
 </head>
 <body>
 <nav th:replace="base :: navbar"></nav>
-<div class="container">
-<div class="jumbotron">
-    <div class="container-heading">
-        <h1 class="display-4">GoMessage</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-    </div>
-</div>
-  </div>
-</div>
 
-<!----Main Content--->
-<div class="container"></div>
+
+
+<header class="masthead">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-12 text-center">
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="page-section">
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--&lt;!&ndash;&#45;&#45;Main Content-&ndash;&gt;-->
+<!--<div class="container">-->
+<!--    <div class="row">-->
+<!--        <div class="card">-->
+<!--            <div class="card-body">-->
+<!--                <div th:each="message : ${messages}">-->
+<!--                    <div th:if="${message.image} !=null">-->
+<!--                        <img class="card-img-top" th:src="${message.image}" alt="image posted" />-->
+<!--                    </div>-->
+<!--                    <h6 class="card-title text-bold text-center" th:text="${message.postedBy}"></h6>-->
+<!--                    <h7 class="card-subtitle mb-2 text-muted" th:text="${message.date}"></h7>-->
+<!--                    <p class="card-text" th:text="${message.content}"></p>-->
+<!--                    <div class="dropdown">-->
+<!--                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+<!--                            Actions-->
+<!--                        </button>-->
+<!--                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">-->
+<!--                            <a  class="dropdown-item" th:href="@{/update/{id}(id=${message.id})}">Edit</a>-->
+<!--                            <a  class="dropdown-item"th:href="@{/detail/{id}(id=${message.id})}">Details</a>-->
+<!--                            <a  class="dropdown-item" th:href="@{/delete/{id}(id=${message.id})}">Delete</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 
 
 

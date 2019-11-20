@@ -7,21 +7,45 @@
 body{
     font-family: "Open Sans", sans-serif;
     font-size: 13px;
-    background-image: url("https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80");
+    background-color: cornsilk;
+}
+
+.masthead {
+    height: 50vh;
+    min-height: 100px;
+    background-image: url("https://images.unsplash.com/photo-1519120944692-1a8d8cfc107f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=676&q=80");
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover ;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .container-heading {
     font-family: "Roboto Condensed", sans-serif;
     text-align: center;
 }
-.bg-black {
-    background-color: lightgray;
-}
+
 
 .footer-bottom {
     padding: 25px 0px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
+
+.form-heading{
+    font-family: "Roboto Condensed",Serif;
+    text-align: center;
+}
+
+.card {
+    width: 18rem;
+}
+
+.page-section {
+    padding: 100px 0;
+}
+
+
+
+
 
