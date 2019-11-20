@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    background-image: url("https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover ;
+}
+
+.container-heading {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+}
+.bg-black {
+    background-color: lightgray;
+}
+
+.footer-bottom {
+    padding: 25px 0px;
+}
+
