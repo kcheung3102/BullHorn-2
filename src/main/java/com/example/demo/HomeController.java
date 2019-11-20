@@ -55,7 +55,6 @@ public class HomeController {
             message.setImage(null);
         } else {
 
-
             try {
                 Map uploadResult = cloudc.upload(file.getBytes(),
                         ObjectUtils.asMap("resourcetype", "auto"));
